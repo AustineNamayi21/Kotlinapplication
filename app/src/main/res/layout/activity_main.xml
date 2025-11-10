@@ -43,9 +43,9 @@
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
-    <!-- Students List -->
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+    <!-- Students List - CHANGED TO ListView -->
+    <ListView
+        android:id="@+id/studentListView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
